@@ -2,7 +2,7 @@ import fs from "fs-extra";
 
 import type { Plugin } from "rollup";
 
-export default function cleanBeforeWrite(directory: string): Plugin {
+export default function clean(directory: string): Plugin {
   let removePromise: Promise<void> | null = null;
   return {
     generateBundle(this, _options, _bundle, isWrite) {
@@ -12,6 +12,6 @@ export default function cleanBeforeWrite(directory: string): Plugin {
         return removePromise;
       }
     },
-    name: "clean-before-write",
+    name: "clean",
   };
 }
