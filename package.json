@@ -14,9 +14,18 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "files": [
+    "dist/**/*.js",
+    "dist/*.d.ts",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=14.18.0",
+    "npm": ">=8.0.0"
+  },
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "build": "pnpm typecheck && tsup src/index.ts --format cjs,esm --dts --clean",
+    "build": "pnpm typecheck && tsup",
     "watch": "pnpm run build -- --watch src",
     "prepublishOnly": "pnpm run build",
     "release": "bumpp --commit --push --tag && npm publish --access=public"
@@ -30,7 +39,6 @@
   "homepage": "https://github.com/damilaredevone/ts-plugin-starter#readme",
   "devDependencies": {
     "@damilaredev/tsconfig": "1.5.2",
-    "@types/fs-extra": "^11.0.1",
     "@types/node": "18.11.18",
     "bumpp": "8.2.1",
     "fs-extra": "^11.1.0",
