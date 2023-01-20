@@ -7,6 +7,8 @@ export default defineConfig({
   outDir: "dist",
   clean: true,
   dts: true,
+  treeshake: true,
+  external: ["fs-extra"],
   async onSuccess() {
     console.log("Done...");
   },

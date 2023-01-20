@@ -1,2 +1,1 @@
-# ts-plugin-starter
-Plugin Starter
+# Rollup plugin Clean

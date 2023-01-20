@@ -8,7 +8,7 @@ export default function clean(directory: string): Plugin {
     async generateBundle(
       _options: NormalizedOutputOptions,
       _bundle: OutputBundle,
-      isWrite
+      isWrite: boolean
     ) {
       if (isWrite) {
         // Only remove before first write, but make all writes wait on the removal
