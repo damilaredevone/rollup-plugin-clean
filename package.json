@@ -40,7 +40,7 @@
   "devDependencies": {
     "@damilaredev/tsconfig": "1.5.2",
     "@types/fs-extra": "^11.0.1",
-    "@types/node": "18.11.18",
+    "@types/node": "18.11.19",
     "bumpp": "8.2.1",
     "rollup": "^3.10.1",
     "tsup": "6.5.0",
