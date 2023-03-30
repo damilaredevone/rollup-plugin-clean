@@ -6,7 +6,7 @@ overrides:
 specifiers:
   '@damilaredev/tsconfig': 1.5.2
   '@types/fs-extra': ^11.0.1
-  '@types/node': 18.13.0
+  '@types/node': 18.15.11
   bumpp: 9.1.0
   rollup: ^2.79.0
   tsup: 6.6.3
@@ -15,7 +15,7 @@ specifiers:
 devDependencies:
   '@damilaredev/tsconfig': 1.5.2
   '@types/fs-extra': 11.0.1
-  '@types/node': 18.13.0
+  '@types/node': 18.15.11
   bumpp: 9.1.0
   rollup: 2.79.1
   tsup: 6.6.3_typescript@4.9.5
@@ -260,17 +260,17 @@ packages:
     resolution: {integrity: sha512-MxObHvNl4A69ofaTRU8DFqvgzzv8s9yRtaPPm5gud9HDNvpB3GPQFvNuTWAI59B9huVGV5jXYJwbCsmBsOGYWA==}
     dependencies:
       '@types/jsonfile': 6.1.1
-      '@types/node': 18.13.0
+      '@types/node': 18.15.11
     dev: true
 
   /@types/jsonfile/6.1.1:
     resolution: {integrity: sha512-GSgiRCVeapDN+3pqA35IkQwasaCh/0YFH5dEF6S88iDvEn901DjOeH3/QPY+XYP1DFzDZPvIvfeEgk+7br5png==}
     dependencies:
-      '@types/node': 18.13.0
+      '@types/node': 18.15.11
     dev: true
 
-  /@types/node/18.13.0:
-    resolution: {integrity: sha512-gC3TazRzGoOnoKAhUx+Q0t8S9Tzs74z7m0ipwGpSqQrleP14hKxP4/JUeEQcD3W1/aIpnWl8pHowI7WokuZpXg==}
+  /@types/node/18.15.11:
+    resolution: {integrity: sha512-E5Kwq2n4SbMzQOn6wnmBjuK9ouqlURrcZDVfbo9ftDDTFt3nk7ZKK4GMOzoYgnpQJKcxwQw+lGaBvvlMo0qN/Q==}
     dev: true
 
   /acorn/8.8.2:
