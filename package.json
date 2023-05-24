@@ -43,7 +43,7 @@
     "@types/node": "18.15.11",
     "bumpp": "9.1.0",
     "rollup": "^3.10.1",
-    "tsup": "6.6.3",
+    "tsup": "6.7.0",
     "typescript": "5.0.2"
   },
   "resolutions": {
