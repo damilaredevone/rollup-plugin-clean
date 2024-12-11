@@ -15,8 +15,8 @@ devDependencies:
     specifier: ^11.0.1
     version: 11.0.4
   '@types/node':
-    specifier: 20.16.12
-    version: 20.16.12
+    specifier: 20.17.10
+    version: 20.17.10
   bumpp:
     specifier: 9.7.1
     version: 9.7.1
@@ -401,17 +401,17 @@ packages:
     resolution: {integrity: sha512-yTbItCNreRooED33qjunPthRcSjERP1r4MqCZc7wv0u2sUkzTFp45tgUfS5+r7FrZPdmCCNflLhVSP/o+SemsQ==}
     dependencies:
       '@types/jsonfile': 6.1.4
-      '@types/node': 20.16.12
+      '@types/node': 20.17.10
     dev: true
 
   /@types/jsonfile@6.1.4:
     resolution: {integrity: sha512-D5qGUYwjvnNNextdU59/+fI+spnwtTFmyQP0h+PfIOSkNfpU6AOICUOkm4i0OnSk+NyjdPJrxCDro0sJsWlRpQ==}
     dependencies:
-      '@types/node': 20.16.12
+      '@types/node': 20.17.10
     dev: true
 
-  /@types/node@20.16.12:
-    resolution: {integrity: sha512-LfPFB0zOeCeCNQV3i+67rcoVvoN5n0NVuR2vLG0O5ySQMgchuZlC4lgz546ZOJyDtj5KIgOxy+lacOimfqZAIA==}
+  /@types/node@20.17.10:
+    resolution: {integrity: sha512-/jrvh5h6NXhEauFFexRin69nA0uHJ5gwk4iDivp/DeoEua3uwCUto6PC86IpRITBOs4+6i2I56K5x5b6WYGXHA==}
     dependencies:
       undici-types: 6.19.8
     dev: true
