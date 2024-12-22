@@ -44,7 +44,7 @@
     "bumpp": "9.7.1",
     "rollup": "^4.0.0",
     "tsup": "8.3.5",
-    "typescript": "5.6.3"
+    "typescript": "5.7.2"
   },
   "resolutions": {
     "rollup": "^4.0.0"
